@@ -13,6 +13,21 @@ const main = {
     },
     settings:(req, res) =>{
         res.render('settings');
+    },
+    kikiam:(req, res) =>{
+        res.render('kikiam');
+    },
+    pisbol:(req, res) =>{
+        res.render('pisbol');
+    },
+    bananaq:(req, res) =>{
+        res.render('bananaq');
+    },
+    hotdog:(req, res) =>{
+        res.render('hotdog');
+    },
+    footlong:(req, res) =>{
+        res.render('footlong');
     }
 };
 
